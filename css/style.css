@@ -1,0 +1,29 @@
+body {
+  margin-top: 25px;
+font-family: 'Merriweather', serif;
+}
+
+.imagesCircle  {
+
+  width: 140px; height: 140px;
+
+
+}
+
+ .border {
+    border-color= #212121;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+.margins {
+  
+  margin-top: 20px;
+}
+
+.marginbo {
+  margin-bottom: 15px;
+}
+
+
