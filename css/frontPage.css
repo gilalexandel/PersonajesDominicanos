@@ -1,9 +1,9 @@
 .headerInfo {
     
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-left: 10%;
+        
        
+        margin-left: 10%;
+        margin-right: 15%;
     }
     
     .dots {
@@ -14,7 +14,29 @@
 
     .imgProfile  {
         
-          width: 140px; height: 140px;
+          width: 140px; 
+          height: 140px;
+          text-align: center;
+          display: block;
         
         
         }
+
+        #grid {  
+            text-align:center;
+            width:200px;
+            display:block;
+        }
+
+.grid {
+    margin-bottom: 10%;
+
+
+    
+}
+a {
+    color: #1D1D1D;
+}
+a:hover {
+    text-decoration: none;
+}
