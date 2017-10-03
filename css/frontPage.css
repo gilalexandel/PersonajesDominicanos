@@ -14,15 +14,15 @@
 
     .imgProfile  {
         
-          width: 140px; 
-          height: 140px;
+          width: 100px; 
+          height: 100px;
           text-align: center;
           display: block;
         
         
         }
 
-        #grid {  
+        .align {  
             text-align:center;
             width:200px;
             display:block;
@@ -30,6 +30,7 @@
 
 .grid {
     margin-bottom: 10%;
+    
 
 
     
@@ -39,4 +40,34 @@ a {
 }
 a:hover {
     text-decoration: none;
+}
+
+#authorsGrid {
+
+    background-color: #FAF5F5;
+}
+
+#headerIndex {
+    
+        margin-top: 2%;
+        margin-bottom: 1%
+    }
+
+    .lead {
+       /*  font-style: italic; */
+        font-family: 'Merriweather', serif;
+    }
+
+#fooPage {
+    margin-top: 5%;
+}
+
+#author {
+    font-family: 'Montserrat', sans-serif;
+    color: #474343;
+
+}
+
+.textie {
+    font-size: 17px;
 }
