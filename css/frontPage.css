@@ -1,40 +1,32 @@
+
 .headerInfo {
+    margin-left: 10%;
+    margin-right: 15%;
+}
     
-        
-       
-        margin-left: 10%;
-        margin-right: 15%;
-    }
-    
-    .dots {
-        width: 18px;
-        height: 18px;
-        opacity: 0.5;
-    }
+.dots {
+    width: 18px;
+    height: 18px;
+    opacity: 0.5;
+}
 
-    .imgProfile  {
-        
-          width: 100px; 
-          height: 100px;
-          text-align: center;
-          display: block;
-        
-        
-        }
+.imgProfile  {    
+    width: 100px; 
+    height: 100px;
+    text-align: center;
+    display: block;
+}
 
-        .align {  
-            text-align:center;
-            width:200px;
-            display:block;
-        }
+.align {  
+    text-align:center;
+    width:200px;
+    display:block;
+}
 
 .grid {
-    margin-bottom: 10%;
-    
-
-
-    
+    margin-bottom: 10%;    
 }
+
 a {
     color: #1D1D1D;
 }
@@ -43,23 +35,25 @@ a:hover {
 }
 
 #authorsGrid {
-
     background-color: #FAF5F5;
 }
 
 #headerIndex {
-    
-        margin-top: 2%;
-        margin-bottom: 1%
-    }
+    margin-top: 2%;
+    margin-bottom: 1%
+}
 
 
 #author {
     font-family: 'Montserrat', sans-serif;
     color: #474343;
-
 }
 
 .textie {
     font-size: 17px;
+}
+
+#fooPage{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
