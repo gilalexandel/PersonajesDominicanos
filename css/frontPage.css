@@ -53,14 +53,6 @@ a:hover {
         margin-bottom: 1%
     }
 
-    .lead {
-       /*  font-style: italic; */
-        font-family: 'Merriweather', serif;
-    }
-
-#fooPage {
-    margin-top: 5%;
-}
 
 #author {
     font-family: 'Montserrat', sans-serif;
