@@ -3,7 +3,7 @@ $( document ).ready(function() {
     var url  = window.location.href;
     var title = $( "#author" ).text()
 
-    alert(url);
+    
     $("#btnTweet").click(function() {
         window.open("https://twitter.com/intent/tweet?text=" + "Biografía de " +title + " "+url);
       });
