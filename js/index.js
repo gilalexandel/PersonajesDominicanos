@@ -19,6 +19,7 @@ $( document ).ready(function() {
 
       $.getJSON(bio, function(data){
 
+        alert(data);
         //Addung
         $( "#content" ).append( "<h4> <strong"+data.firstName+"</strong></h4>" );
 
