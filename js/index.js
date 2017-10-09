@@ -21,9 +21,9 @@ $( document ).ready(function() {
       $.getJSON(bio, function(data){
         
         
-        var results = JSON.parse(data);
+        var results = data;
         //Addung
-        alert(results);
+        // alert(results);
         $( "#content" ).append( "<h4> <strong"+results.firstName+"</strong></h4>" );
 
 
