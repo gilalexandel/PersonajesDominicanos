@@ -16,12 +16,13 @@ $( document ).ready(function() {
     function getbio(){
 
       var bio = "../content/bio.json";
+      
 
       $.getJSON(bio, function(data){
-
-        alert(data);
+        
+        var results = JSON.stringify(data);
         //Addung
-        $( "#content" ).append( "<h4> <strong"+data.firstName+"</strong></h4>" );
+        $( "#content" ).append( "<h4> <strong"+results.firstName+"</strong></h4>" );
 
 
 
