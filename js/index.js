@@ -24,7 +24,7 @@ $( document ).ready(function() {
         var results = data;
         //Addung
         // alert(results);
-        $( "#content" ).append( "<h4> <strong"+results.firstName+"</strong></h4>" );
+        $( "#bioContent" ).append( "<h4><strong"+results.firstName+"</strong></h4>" );
 
 
 
