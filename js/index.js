@@ -20,9 +20,10 @@ $( document ).ready(function() {
 
       $.getJSON(bio, function(data){
         
-        alert(results);
+        
         var results = JSON.stringify(data);
         //Addung
+        alert(results);
         $( "#content" ).append( "<h4> <strong"+results.firstName+"</strong></h4>" );
 
 
