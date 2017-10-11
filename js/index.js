@@ -21,9 +21,11 @@ $( document ).ready(function() {
       $.getJSON(bio, function(data){
         
         
-        var results = data;
+        var results = JSON.parse(data);
         
-        $( "#bioContent" ).append( "<h4><strong>"+results.firstName+"</strong></h4>" );
+        alert(results);
+        $("#bioContent").append(results.id);
+        
 
 
 
