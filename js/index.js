@@ -17,22 +17,13 @@ $( document ).ready(function() {
 
       var bio = "../content/bio.json";
       
-
+      //Pull data from json file
       $.getJSON(bio, function(data){
-        
-        
-        var results = JSON.parse(data);
-        
-        alert(results);
-        $("#bioContent").append(results.id);
-        
 
-
+        $("#bioContent").append(data.caamaño);
 
       });
-
       
-
     }
     getbio();
     
