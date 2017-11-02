@@ -8,12 +8,12 @@ $( document ).ready(function() {
         window.open("https://twitter.com/intent/tweet?text=" + "Biografía de " +title + " "+url);
       });
       $("#btnFB").click(function() {
-       /*  window.open("http://www.facebook.com/share.php?u=[URL]&title=[TITLE]"); */
-        window.open("http://www.facebook.com/share.php?u=https://gilalexandel.github.io/PersonajesDominicanos/pages/liborio.html");
+        window.open("http://www.facebook.com/share.php?u="+url+""); 
+        /* window.open("http://www.facebook.com/share.php?u=https://gilalexandel.github.io/PersonajesDominicanos/pages/liborio.html"); */
       });
 
     //Function to get bio from json file
-    function getbio(){
+    /* function getbio(){
 
       var bio = "../content/bio.json";
       
@@ -25,7 +25,7 @@ $( document ).ready(function() {
       });
       
     }
-    getbio();
+    getbio(); */
     
     //Back to top btn 
     if ($('#back-to-top').length) {
@@ -49,4 +49,6 @@ $( document ).ready(function() {
           }, 700);
       });
   }
+  
 });
+  
