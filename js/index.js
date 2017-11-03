@@ -1,15 +1,15 @@
 $( document ).ready(function() {
 
+    /*Gettting url and title*/ 
     var url  = window.location.href;
     var title = $( "#author" ).text()
 
-   
+    /*Social Media buttons*/
     $("#btnTweet").click(function() {
         window.open("https://twitter.com/intent/tweet?text=" + "Biografía de " +title + " "+url);
       });
       $("#btnFB").click(function() {
         window.open("http://www.facebook.com/share.php?u="+url+""); 
-        /* window.open("http://www.facebook.com/share.php?u=https://gilalexandel.github.io/PersonajesDominicanos/pages/liborio.html"); */
       });
 
     //Function to get bio from json file
@@ -19,9 +19,7 @@ $( document ).ready(function() {
       
       //Pull data from json file
       $.getJSON(bio, function(data){
-
         $("#bioContent").append(data.caamaño);
-
       });
       
     }
